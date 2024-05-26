@@ -1,6 +1,9 @@
 
 # Handwriting Recognition with TensorFlow
 
+## About the Project
+Handwritten text recognition aims to convert images of handwritten text into machine-readable text format. This project employs a CNN model trained on the downloaded dataset.The CTC loss function is a crucial component in handling the variable length sequences of characters that are often present in handwritten text. It allows the model to learn effectively from the training data despite varying lengths in the text strings.
+
 ## Requirements
 - Python 3.10
 - TensorFlow 2.10
@@ -38,5 +41,3 @@ pip install mltu==0.1.5
 8\. The Connectionist Temporal Classification (CTC) loss function is utilized for handwriting recognition.
 ## Dataset
 - Each sample in the dataset includes an image of handwritten text and the corresponding target text string.
-## Handwritten Text Recognition with CTC Loss
-Handwritten text recognition aims to convert images of handwritten text into machine-readable text format. This project employs a CNN model trained on the downloaded dataset.The CTC loss function is a crucial component in handling the variable length sequences of characters that are often present in handwritten text. It allows the model to learn effectively from the training data despite varying lengths in the text strings.
